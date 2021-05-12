@@ -1,0 +1,61 @@
+*/ === Typography === */
+
+body {
+font-family: ‘Helvetica’, ‘Arial’, sans-serif; font-size: 14pt;
+line-height: 18pt;
+color: #000000;
+}
+
+nav a {
+color: #FFFFFF;
+text-decoration: none; 
+    margin-right: auto
+padding}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+}
+
+*/ === Backgrounds === */
+
+header {
+    background-color: #black;
+    position: fixed;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+main {
+       background-color: #cdcdcd;
+}
+
+body {
+    background-color: #cdcdcd;
+    padding: 175px;
+}
+
+footer {
+    background-color: #black;
+    padding: 50px;
+    text-align: center;
+}
+
+#splash {
+    background-image
+    background-size:cover
+    height: 400px;
+    display: flex;
+    align-items: center; justify-content: center;
+    
+    #foodarticles {
+        margin-bottom: auto
+        padding
+    }
+    
+}
+*/ === Layout === */
+.floatleft {
+float: left; 
+margin-right: auto
+margin-bottom: auto }
