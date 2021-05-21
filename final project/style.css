@@ -1,0 +1,68 @@
+header {
+    background-color: #372440;
+    color: #F2D888;
+
+    font-family: "Proxima Nova";
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav {
+    display: inline-block;
+    font-size: 12pt;
+    vertical-align: baseline;
+
+}
+
+h2 {
+    color: #372440;
+    font-size: 14pt;
+
+}
+
+nav a {
+    padding: 15px;
+}
+
+#content {
+    text-align: center;
+    color: #BF4904;
+    font-family: "Futura";
+    padding: 20px;
+}
+
+#content > img {
+    padding: 10px;
+}
+
+#columns {
+    clear: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#columns img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+#columns > div {
+    flex-grow: 1;
+    background-color: #ADBEC4;
+    margin: 10px;
+    max-width: 33%;
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 5px;
+    color: #F2D888;
+
+}
+
+a:hover {
+    color: #BF4904;
+}
